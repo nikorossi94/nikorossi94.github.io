@@ -1,0 +1,219 @@
+body {
+    max-width: 100%;
+    background: linear-gradient(red, rgb(247, 247, 248));
+  }
+  
+  /* Estilos para el título */
+  
+  @media (min-width:767px) and (max-width: 990px) {
+    #titulo {
+      text-align: center;
+      padding: 2%;
+      border: 0.5em solid;
+      margin: -8cm 0cm 9cm 9cm;
+      font-family: 'Tilt Prism', cursive;
+      font-size: 3em;
+    }
+  }
+  
+  /* Estilos para el botón */
+  
+  #boton {
+    border: 9px dashed;
+    padding: 1%;
+    margin: -12cm 1cm 1cm 8cm;
+    max-width: 12%;
+  }
+  @media only screen and (max-width: 600px) {
+    #boton {
+        border: 9px dashed;
+        padding: 1%;
+        margin: -12cm 1cm 1cm 8cm;
+        width: 12cm;
+        ;
+    }
+}
+  .boton boton {
+    text-align: left;
+  }
+  
+  /* Estilos para las imágenes */
+  
+  .img {
+    text-align: left;
+  }
+  
+  .img img {
+    border-radius: 2em;
+    width: 15%;
+    height: auto;
+    border: 0.5em solid;
+    margin: 1cm 1cm 1cm 1cm;
+  }
+  
+  /* Estilos para el contenedor de experiencia */
+  
+  #experiencia {
+    
+    border: 0.5em solid;
+    background-color: aqua;
+    margin: -8cm 1cm 13cm 16cm;
+    padding: 2em;
+    display: none;
+    
+  }
+  
+  #edu {
+    border: 0.5em solid;
+    background-color: aqua;
+    margin: -8cm 2cm 12cm 16cm;
+    padding: 2em;
+    display: none;
+  }
+  
+  #hab {
+    border: 0.5em solid;
+    background-color: aqua;
+    margin: -8cm 1cm 12cm 16cm;
+    padding: 2em;
+    display: none;
+  }
+
+  #datos,
+  #educacion,
+  #habilidades {
+    position: relative;
+    margin: 10px auto;
+    display: block;
+    background-color: rgb(112, 219, 219);
+    border: none;
+    color: white;
+    padding: 6px 36px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 600px) {
+    
+    
+    #experiencia {
+      margin: 1em;
+      padding: 1em;
+    }
+  
+    #edu {
+      margin: 1em;
+      padding: 1em;
+    }
+  
+    #hab {
+      margin: 1em;
+      padding: 1em;
+    }
+  
+    #datos,
+    #educacion,
+    #habilidades
+     {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 1cm 1cm 1cm 1cm;
+    }
+  }
+  
+  
+  
+  #datos:hover {
+    background-color: rgb(8, 104, 104);
+  }
+  
+  #educacion:hover {
+    background-color: rgb(7, 138, 138);
+  }
+  
+  #habilidades:hover {
+    background-color: rgb(11, 146, 146);
+  }
+  
+  i {
+    font-size: 24px;
+  }
+  
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  #contacto {
+    background-color: azure;
+    border: solid;
+    max-width: 200px;
+    margin: 300px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #boton-inicio {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1ecec;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: fantasy;
+  }
+  #contenedor{
+    margin left: 100px; ;
+  }
+}
